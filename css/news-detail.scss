@@ -1,0 +1,133 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.grid article {
+  img {
+    width: 100%;
+  }
+}
+
+.news-detail-another {
+  margin-top: 32px;
+  h3 {
+    margin-bottom: 16px;
+    color: #101828;
+  }
+}
+
+.news-detail {
+  h1 {
+    color: #000000;
+  }
+  .desc {
+    margin-top: 17px;
+    letter-spacing: 0.02em;
+    color: #b7babf;
+  }
+  .container .col-lg-8 {
+    background: #fff;
+    padding: 34px 119px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.16), 0px 2px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+  }
+}
+
+.calendar {
+  margin-top: 17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #878b94;
+  line-height: 23px;
+  img {
+    margin-right: 8px;
+  }
+}
+
+.news-list-right-box {
+  padding-left: 24px;
+  h3 {
+    margin-bottom: 14px;
+  }
+  article {
+    margin-bottom: 24px;
+    display: flex;
+    width: 100%;
+    .blog-img {
+      width: 88px;
+      height: 88px;
+      margin-right: 12px;
+      img {
+        width: 100%;
+        border-radius: 8px;
+      }
+    }
+    .blog-content {
+      width: 255px;
+      display: flex;
+      flex-direction: column;
+      width: calc(100% - 100px);
+      align-items: flex-start;
+      .h5 {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+        width: 100%;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        margin-bottom: 4px;
+      }
+    }
+    .des {
+      color: #878B94;
+    }
+  }
+}
+@media (max-width: 1440px) {
+  .news-detail .container .col-lg-8{
+    padding: 40px;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .news-detail  {
+    .container {
+      padding: 0 16px;
+      border-radius: 0;
+    }
+  }
+  .section-linking {
+    .container {
+      padding: 0 16px !important;
+    }
+  }
+  .breadcrumb {
+    display: flex;
+  }
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16;
+  }
+}
+
+@media (max-width: 991px) { 
+  .news-list-right-box {
+    padding: 0 16px;
+    margin-top: 16px;
+  }
+  .news-detail .container .col-lg-8 {
+    padding: 16px;
+    border-radius: 0;
+  }
+}
+@media (max-width: 576px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+

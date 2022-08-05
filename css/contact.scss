@@ -1,0 +1,137 @@
+.box-contact {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 24px 16px;
+  .p2 {
+    margin-top: 16px;
+    width: 460px;
+  }
+}
+
+.contact-item {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  div {
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    span {
+      text-transform: uppercase;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.08em;
+    }
+    a {
+      color: #101828;
+      &:hover {
+        color: #ed1c24;
+      }
+    }
+  }
+  + .contact-item {
+    margin-top: 16px;
+  }
+}
+
+.box-adress {
+  h3 {
+    color: #101828;
+  }
+}
+
+.list-adress {
+  li {
+    a {
+      position: relative;
+      margin-top: 8px;
+      display: flex;
+      background: #ffffff;
+      border-radius: 8px;
+      padding: 14px 16px;
+      &:before {
+        content: "";
+        display: flex;
+        background: url(/img/icon-contact-building.svg) no-repeat;
+        width: 24px;
+        height: 24px;
+        margin-right: 10px;
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        right: 8px;
+        top: 8px;
+        background: url(/img/icon-contact-next.svg) no-repeat;
+        width: 32px;
+        height: 32px;
+        margin-right: 10px;
+      }
+    }
+    &:first-child {
+      margin-top: 12px;
+    }
+
+    span {
+      margin-left: 10px;
+    }
+  }
+}
+
+.form-control.recapcha {
+  width: 178px;
+  margin-left: 12px;
+}
+.btn-reset-form {
+  padding: 10px 32px;
+  width: 110px;
+  height: 42px;
+  text-align: center;
+  background: #f1f4f9;
+  &:hover {
+    background: #c9cdd3;
+  }
+}
+
+.btn-submit-form {
+  padding: 10px 32px;
+  width: 120px;
+  height: 42px;
+  background: #212121;
+  color: #fff;
+  margin-left: 12px;
+  &:hover {
+    background-color: #000;
+    color: #fff;
+  }
+}
+
+@media (max-width: 1280px) {
+  .box-contact .p2 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .box-contact {
+    border-radius: 0;
+  }
+  .section-contact-detail {
+    .container {
+      padding: 0;
+    }
+  }
+  .box-contact.box-form {
+    margin-top: 16px;
+  }
+  .box-adress {
+    padding: 0 16px;
+  }
+  .contact-item {
+    margin-top: 16px;
+
+    + .contact-item {
+      margin-top: 16px;
+    }
+  }
+}
