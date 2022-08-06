@@ -422,6 +422,11 @@
   padding-bottom: 10px;
 }
 
+.section-product-same {
+  position: relative;
+  z-index: 2;
+}
+
 @media (max-width: 1280px) {
   .star-box .star-full,
 .star-box .star-haft {
