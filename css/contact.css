@@ -114,7 +114,7 @@
   .box-contact {
     border-radius: 0;
   }
-  .section-contact-detail .container {
+  .section-contact-detail .row > * {
     padding: 0;
   }
   .box-contact.box-form {

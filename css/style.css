@@ -367,7 +367,8 @@ a:hover {
 
 .gnb-mo {
   display: none;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   box-shadow: 0px 1px 0px #e7e7e7;
   position: -webkit-sticky;
   position: sticky;
@@ -384,6 +385,8 @@ a:hover {
   background: transparent;
 }
 .gnb-mo .btn-group-action {
+  position: absolute;
+  right: 8px;
   display: flex;
   align-items: center;
 }
@@ -395,6 +398,8 @@ a:hover {
 }
 
 .btn_menu {
+  position: absolute;
+  left: 8px;
   width: 32px;
   height: 32px;
 }
@@ -403,6 +408,10 @@ a:hover {
   height: 32px;
 }
 
+.btn-back-home {
+  position: absolute;
+  left: 8px;
+}
 .btn-back-home .icon-back {
   width: 32px;
   height: 32px;
@@ -430,7 +439,11 @@ a:hover {
   line-height: 24px;
   color: #878b94;
 }
-.list-page-mo li a:hover {
+.list-page-mo li a:focus {
+  background: #fef8f8;
+  color: #ed1c24;
+}
+.list-page-mo li.active a {
   background: #fef8f8;
   color: #ed1c24;
 }

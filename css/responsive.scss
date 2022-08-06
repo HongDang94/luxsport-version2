@@ -258,6 +258,12 @@
   }
 }
 
+@media (max-width: 991px) {
+  .policy-box {
+    margin-top: 12px;
+  }
+}
+
 @media (max-width: 767px) {
   .text-mo {
     display: block;
@@ -337,6 +343,9 @@
   }
   .category-banner {
     border-radius: 8px;
+    img{
+      width: 100%;
+    }
   }
   .category-banner .category-title {
     width: 100%;
