@@ -63,16 +63,9 @@
     }
   }
 }
-.news-list {
+.mySwiper2  {
   .swiper-slide {
-    align-items: flex-start;
-    justify-content: flex-start;
     background: #f5f5f5;
-    display: none;
-    transform: none !important;
-    &.swiper-slide-active {
-      display: grid;
-    }
   }
 }
 
@@ -105,6 +98,9 @@
   }
   .section-linking .container:before {
     right: 0;
+  }
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
