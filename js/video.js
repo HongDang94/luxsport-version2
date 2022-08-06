@@ -10,7 +10,7 @@ for (var i = 0; i < videos.length; i++) {
 function getVideos(el) {
   var img = document.createElement("img");
   // Get images
-  img.setAttribute("src", "http://i.ytimg.com/vi/" + el.id + "/hqdefault.jpg");
+  img.setAttribute("src", "http://i.ytimg.com/vi/" + el.id + "/mqdefault.jpg");
   // Add class to img
   img.setAttribute("class", "thumb");
   // Make div to embed videos
