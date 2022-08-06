@@ -348,6 +348,9 @@ footer {
 .category-banner {
   display: block;
   position: relative;
+  img {
+    width: 240px;
+  }
 
   .category-title {
     bottom: 29px;

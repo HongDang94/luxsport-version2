@@ -320,6 +320,9 @@ footer h4 {
   display: block;
   position: relative;
 }
+.category-banner img {
+  width: 240px;
+}
 .category-banner .category-title {
   bottom: 29px;
   left: 16px;
