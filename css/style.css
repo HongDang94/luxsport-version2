@@ -1059,6 +1059,34 @@ input.form-control-lg {
   width: 100%;
 }
 
+.video-bg {
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+  font-family: "object-fit: cover; object-position: center center;";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.section-video-banner {
+  padding-top: 205px;
+  padding-bottom: 205px;
+  position: relative;
+}
+
 @media (max-width: 1440px) {
   .form-select.sm {
     width: 158px;
