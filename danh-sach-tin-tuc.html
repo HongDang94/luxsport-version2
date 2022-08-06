@@ -252,7 +252,7 @@
   </header>
 
   <div class="gnb-mo">
-    <button type="button" class="btn_menu">
+    <button type="button" class="btn_menu" data-bs-toggle="modal" data-bs-target="#modalMenu">
       <img src="./img/icon-hamberger-mo.svg" alt="" />
     </button>
     <a href="#." target="_blank" class="logo">Lux sport</a>
@@ -263,54 +263,6 @@
       <button type="button" class="btn-cart">
         <img src="./img/icon-cart-mo.svg" alt="" />
       </button>
-    </div>
-  </div>
-
-  <div class="gnb">
-    <div class="gnb_wrap">
-      <div class="gnb_head">
-        <img src="./img/logo.png" alt="Lux Sport" />
-        <button type="button" class="btn_close">
-          <img src="./img/icon-close-mo.svg" alt="" />
-        </button>
-      </div>
-      <ul class="list-page-mo">
-        <li>
-          <a href="danh-sach-san-pham.html" target="_blank">Ghế massage</a>
-        </li>
-        <li>
-          <a href="#." target="_blank">Thiết bị thể thao</a>
-        </li>
-        <li>
-          <a href="#." target="_blank">Home gym</a>
-        </li>
-        <li>
-          <a href="#." target="_blank">Hoạt động xã hội</a>
-        </li>
-        <li>
-          <a href="#." target="_blank">Bảo hành</a>
-        </li>
-        <li class="active">
-          <a href="#." target="_blank">Tin tức</a>
-        </li>
-        <li>
-          <a href="#." target="_blank">Liên hệ</a>
-        </li>
-      </ul>
-      <ul class="dropdown-menu-contact w-100">
-        <li class="item item-call">
-          <a href="tel:19000065">
-            <strong class="red">1900 0065</strong>
-            <p>Hỗ trợ 24/7</p>
-          </a>
-        </li>
-        <li class="item item-zalo">
-          <a href="https://zalo.me/0772959888" target="_blank">
-            <strong class="blue">0772959888</strong>
-            <p>Zalo chat 24/7</p>
-          </a>
-        </li>
-      </ul>
     </div>
   </div>
 
@@ -747,6 +699,58 @@
     </ul>
   </div>
 
+  <div class="modal fade left" id="modalMenu" tabindex="-1" aria-labelledby="modalMenuLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="./img/logo.png" alt="Lux Sport" />
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-0">
+          <div class="gnb_wrap">
+            <ul class="list-page-mo">
+              <li>
+                <a href="danh-sach-san-pham.html" target="_blank">Ghế massage</a>
+              </li>
+              <li>
+                <a href="#." target="_blank">Thiết bị thể thao</a>
+              </li>
+              <li>
+                <a href="#." target="_blank">Home gym</a>
+              </li>
+              <li>
+                <a href="#." target="_blank">Hoạt động xã hội</a>
+              </li>
+              <li>
+                <a href="#." target="_blank">Bảo hành</a>
+              </li>
+              <li>
+                <a href="#." target="_blank">Tin tức</a>
+              </li>
+              <li>
+                <a href="#." target="_blank">Liên hệ</a>
+              </li>
+            </ul>
+            <ul class="dropdown-menu-contact w-100">
+              <li class="item item-call">
+                <a href="tel:19000065">
+                  <strong class="red">1900 0065</strong>
+                  <p>Hỗ trợ 24/7</p>
+                </a>
+              </li>
+              <li class="item item-zalo">
+                <a href="https://zalo.me/0772959888" target="_blank">
+                  <strong class="blue">0772959888</strong>
+                  <p>Zalo chat 24/7</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="modal fade right" id="modalSearch" tabindex="-1" aria-labelledby="modalSearchLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -813,7 +817,6 @@
 
   <script src="./js/vendors/bootstrap.bundle.min.js"></script>
   <script src="./js/vendors/vendor.js"></script>
-  <script src="./js/common.js"></script>
   <script src="./js/news-list.js"></script>
 </body>
 
