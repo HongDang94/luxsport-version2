@@ -17,24 +17,12 @@ jQuery(document).ready(function ($) {
         $(".gnb")
           .stop()
           .animate({ left: "-100%" }, 600, "easeInOutExpo", function () {
-            //scrollLock(false);
             $(".gnb").hide();
           });
       });
     };
-
-    // var openSearch = function() {
-    //   $("#btn-search-mo").on("click", function () {
-    //     $(".dropdown-menu-search").show();
-    //     $("body").addClass("show_menu");
-    //     $(".dropdown-menu-search")
-    //       .stop()
-    //       .animate({ left: "0" }, 600, "easeInOutExpo", function () {});
-    //   });
-    // }
   
     openMenu();
     closeMenu();
-    // openSearch();
   });
   

@@ -77,10 +77,6 @@
   width: 100%;
 }
 
-.swiper-wrapper {
-  height: auto !important;
-}
-
 .news-list-top {
   display: flex;
   align-items: center;

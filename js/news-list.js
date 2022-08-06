@@ -1,30 +1,26 @@
 jQuery(document).ready(function ($) {
   "use strict";
 
-  var tabTit = new Swiper(".slider-thumb", {
-    spaceBetween: 8,
+  var swiper = new Swiper(".mySwiper", {
+     spaceBetween: 8,
     slidesPerView: "auto",
     freeMode: true,
     watchSlidesVisibility: true,
     watchSlidesProgress: true,
     slideToClickedSlide: true,
   });
-  var tabContent = new Swiper(".news-list", {
+  var swiper2 = new Swiper(".mySwiper2", {
     spaceBetween: 10,
     autoHeight: true,
     effect: "fade",
     observer: true,
     observeParents: true,
     thumbs: {
-      swiper: tabTit,
+      swiper: swiper,
     },
   });
-  tabContent.on("slideChange", function () {
-    var idx = tabContent.activeIndex;
-    tabTit.slideTo(idx, 500);
-  });
-  $(".slider-thumb .swiper-wrapper a").click(function () {
-    $(this).addClass("selected");
-    $(this).siblings().removeClass("selected");
+  swiper2.on("slideChange", function () {
+    var idx = swiper2.activeIndex;
+    swiper.slideTo(idx, 500);
   });
 });
