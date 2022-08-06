@@ -76,8 +76,9 @@
 }
 
 .form-control.recapcha {
-  width: 178px;
+  width: 100%;
   margin-left: 12px;
+  max-width: 178x;
 }
 
 .btn-reset-form {
