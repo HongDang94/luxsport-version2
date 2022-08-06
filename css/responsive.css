@@ -115,8 +115,10 @@
     margin-top: 18px;
     width: 100%;
   }
-  .more-us h4 {
+  .about-us h4,
+.more-us h4 {
     margin-top: 42px;
+    margin-bottom: 28px;
   }
   .method-contact img {
     width: 32px;
@@ -360,7 +362,6 @@
   .about-us h4,
 .more-us h4 {
     margin-top: 30px;
-    margin-bottom: 28px;
   }
   .address-info li:first-child {
     margin-top: 0;
