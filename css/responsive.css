@@ -194,14 +194,15 @@
   .vka-wrapper {
     bottom: 20px;
   }
+  .vka-wheel .vka-action {
+    width: 48px;
+    height: 48px;
+    background-size: 24px 24px;
+  }
   .vka,
 .vka-button {
     right: 10px;
     bottom: 50px;
-    width: 48px;
-    height: 48px;
-  }
-  .vka-button img {
     width: 48px;
     height: 48px;
   }
@@ -220,8 +221,6 @@
   .icon-cps-vka-menu {
     width: 48px;
     height: 48px;
-    background: url(../img/contact.png);
-    background-size: 100%;
   }
   .category-slider .swiper-pagination {
     display: none;

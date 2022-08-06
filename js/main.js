@@ -13,7 +13,7 @@ jQuery(document).ready(function ($) {
   var swiperAdvertisSlider = new Swiper(".advertisSlider", {
     slidesPerView: "auto",
     spaceBetween: 24,
-    loop: true,
+    loop: false,
     breakpoints: {
       320: {
         spaceBetween: 12,
@@ -196,7 +196,11 @@ jQuery(document).ready(function ($) {
         spaceBetween: 16,
       },
       768: {
-        slidesPerView: 3,
+        slidesPerView: 2,
+        spaceBetween: 16,
+      },
+      991: {
+        slidesPerView: 2,
         spaceBetween: 16,
       },
       1280: {
@@ -224,7 +228,11 @@ jQuery(document).ready(function ($) {
         spaceBetween: 16,
       },
       768: {
-        slidesPerView: 3,
+        slidesPerView: 2,
+        spaceBetween: 16,
+      },
+      991: {
+        slidesPerView: 2,
         spaceBetween: 16,
       },
       1280: {

@@ -645,17 +645,25 @@ a:hover {
 
 .vka-wheel .vka-action {
   position: absolute;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
 }
 
 .vka-wheel .vka-action-3 {
   right: 0;
   bottom: 202px;
   cursor: pointer;
+  background: #fff url(../img/contact-mess.png) center no-repeat;
+  background-size: 32px 32px;
 }
 
 .vka-wheel .vka-action-4 {
   right: 0;
   bottom: 125px;
+  background: #fff url(../img/contact-zalo.png) center no-repeat;
+  background-size: 32px 32px;
 }
 
 .vka-checkbox:checked ~ .vka-wheel {
@@ -672,12 +680,14 @@ a:hover {
 .vka-wheel .vka-action-2 {
   bottom: 46px;
   right: 0;
+  background: #fff url(../img/icon-call-hover.svg) center no-repeat;
+  background-size: 24px 24px;
 }
 
 .icon-cps-vka-menu {
   width: 64px;
   height: 64px;
-  background-image: url(../img/contact.png);
+  background-image: url(../img/contact.svg);
   background-size: 100% auto;
 }
 
