@@ -15,16 +15,16 @@ header .list-page {
   display: flex;
   align-items: center;
 }
-header .list-page li {
+header .list-page > li {
   margin-right: 33px;
 }
-header .list-page li a {
+header .list-page > li a {
   position: relative;
   line-height: 58px !important;
   display: block;
   margin-bottom: 0 !important;
 }
-header .list-page li a:before {
+header .list-page > li a:before {
   content: "";
   display: none;
   width: 100%;
@@ -34,19 +34,19 @@ header .list-page li a:before {
   background: #ed1c24;
   position: absolute;
 }
-header .list-page li a:hover:before {
+header .list-page > li a:hover:before {
   display: block;
 }
-header .list-page li:last-child {
+header .list-page > li:last-child {
   margin-right: 0;
 }
-header .list-page li.active a {
+header .list-page > li.active > a {
   color: #ed1c24;
 }
-header .list-page li.active a:before {
+header .list-page > li.active > a:before {
   display: block;
 }
-header .list-page li:hover .dropdown-menu.dropdown-category-multi {
+header .list-page > li:hover .dropdown-menu.dropdown-category-multi {
   display: flex;
 }
 header h1 {
@@ -101,12 +101,6 @@ header .btn-call:hover, header .btn-call:focus {
 }
 .dropdown-menu.dropdown-category-multi .container .col-lg-3 h4 {
   margin-bottom: 12px;
-}
-.dropdown-menu.dropdown-category-multi .container a {
-  line-height: 50px !important;
-}
-.dropdown-menu.dropdown-category-multi .container a:hover:before {
-  display: none;
 }
 
 .btn-cart {
