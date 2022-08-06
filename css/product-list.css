@@ -311,7 +311,7 @@
     grid-template-columns: repeat(4, 1fr);
   }
   .category-product.col-lg-9 {
-    padding-left: 0;
+    padding-left: 12px;
   }
 }
 @media (max-width: 767px) {
