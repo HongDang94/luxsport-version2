@@ -553,10 +553,6 @@ a:hover {
   max-width: 704px !important;
 }
 
-.modal.show .modal-dialog.modal-advice {
-  max-width: 704px;
-}
-
 .btn-back-search {
   padding: 0;
 }
@@ -1198,8 +1194,7 @@ input.form-control-lg {
   .modal-advice .modal-dialog {
     width: 100% !important;
     max-width: 100% !important;
-  }
-  .modal.show .modal-dialog.modal-advice {
-    max-width: 100%;
+    margin: 0;
+    padding: 0 16px;
   }
 }/*# sourceMappingURL=style.css.map */

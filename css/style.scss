@@ -557,10 +557,6 @@ a {
   }
 }
 
-.modal.show .modal-dialog.modal-advice {
-  max-width: 704px;
-}
-
 .btn-back-search{
     padding: 0;
     &:before {
@@ -1206,10 +1202,9 @@ input.form-control-lg {
     .modal-dialog {
       width: 100% !important;
       max-width: 100% !important;
+      margin: 0;
+      padding: 0 16px;
     }
   }
-  
-  .modal.show .modal-dialog.modal-advice {
-    max-width: 100%;
-  }
+
 }

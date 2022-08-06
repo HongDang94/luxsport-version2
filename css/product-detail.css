@@ -453,17 +453,13 @@
   .page-product-detail .row {
     --bs-gutter-x: 0;
   }
-  .price-detail,
-.btn-group-methodBuy {
+  .price-detail {
     display: none;
   }
   .box-show-md {
     display: block;
   }
   .box--sticky {
-    display: none;
-  }
-  .btn-group-method {
     display: none;
   }
   .btn-group-bottom {
@@ -544,6 +540,9 @@
 @media (max-width: 991px) {
   .video-slider-detail .swiper-slide {
     height: 398px;
+  }
+  .btn-group-methodBuy button {
+    font-size: 14px;
   }
 }
 @media (max-width: 767px) {
