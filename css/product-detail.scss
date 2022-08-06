@@ -573,3 +573,16 @@
     }
   }
 }
+
+@media (max-width: 991px) {
+  .video-slider-detail .swiper-slide {
+    height: 398px;
+  }
+}
+
+@media (max-width: 767px) {
+  .video-slider-detail .swiper-slide {
+    height: 194px;
+  }
+}
+
