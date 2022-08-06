@@ -1067,16 +1067,6 @@ input.form-control-lg {
   border-radius: 8px;
 }
 
-.dropdown-category-multi {
-  background: #FFFFFF;
-}
-.dropdown-category-multi .img {
-  width: 261px;
-}
-.dropdown-category-multi .img img {
-  width: 100%;
-}
-
 .video-bg {
   -o-object-fit: cover;
   object-fit: cover;

@@ -88,14 +88,8 @@
   max-width: 178x;
 }
 .btn-reset-form {
-  padding: 10px 32px;
+  min-width: 110px;
   width: 110px;
-  height: 42px;
-  text-align: center;
-  background: #f1f4f9;
-  &:hover {
-    background: #c9cdd3;
-  }
 }
 
 .btn-submit-form {

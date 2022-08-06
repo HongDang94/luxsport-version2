@@ -1068,16 +1068,6 @@ input.form-control-lg {
     border-radius: 8px;
   }
 }
-
-.dropdown-category-multi {
-  background: #FFFFFF;
-  .img {
-    width: 261px;
-    img {
-      width: 100%;
-    }
-  }
-}
 .video-bg {
   -o-object-fit: cover;
   object-fit: cover;
@@ -1104,6 +1094,7 @@ input.form-control-lg {
   padding-bottom: 205px;
   position: relative;
 }
+
 @media (max-width: 1440px) {
   .form-select {
     &.sm {

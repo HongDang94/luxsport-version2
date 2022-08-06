@@ -14,11 +14,24 @@
 .box-insurance-inner .box-content .p1 {
   margin-top: 16px;
 }
+.box-insurance-inner .btn-danger {
+  min-width: 165px;
+}
 .box-insurance-inner h2 {
   margin-bottom: 16px;
 }
 .box-insurance-inner .content {
   margin-top: 0;
+}
+.box-insurance-inner ul {
+  margin-bottom: 24px;
+}
+.box-insurance-inner ul li {
+  color: #585D69;
+  margin-top: 16px;
+}
+.box-insurance-inner ul li strong {
+  color: #101828;
 }
 
 .box-insurance-inner:first-child {
@@ -36,10 +49,6 @@
   width: 100%;
 }
 
-.btn-danger {
-  min-width: 165px;
-}
-
 @media (max-width: 767px) {
   .box-insurance-inner {
     flex-direction: column;
@@ -47,6 +56,9 @@
     justify-content: flex-start;
     border-radius: 0;
     padding: 16px;
+  }
+  .box-insurance-inner .btn-danger, .box-insurance-inner .btn-gray {
+    width: 100%;
   }
   .box-insurance-inner:first-child {
     padding: 16px;
@@ -56,9 +68,6 @@
   }
   .section-insurance .container {
     padding: 0;
-  }
-  .btn-danger {
-    width: 100%;
   }
   .box-content {
     width: 100%;
