@@ -61,6 +61,7 @@ header h1 a {
 }
 header .logo {
   margin-right: 76px;
+  width: 72px;
 }
 header .logo img {
   width: 100%;

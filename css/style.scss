@@ -352,6 +352,16 @@ a {
   right: -34px;
 }
 
+.logo-text{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: flex;
+  color: #ed1c24;
+}
+
 .gnb-mo {
   display: none;
   justify-content: space-between;
@@ -359,15 +369,7 @@ a {
   position: sticky;
   top: 0;
   z-index: 100;
-  a {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    display: flex;
-    color: #ed1c24;
-  }
+
   button {
     display: flex;
     align-items: center;
@@ -720,7 +722,7 @@ a {
     border-radius: 6px;
     padding: 8px;
     a {
-      width: 100%;
+      width: calc(100% - 40px);
     }
     strong,
     p {
