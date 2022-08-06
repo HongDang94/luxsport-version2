@@ -1162,7 +1162,7 @@ input.form-control-lg {
     border-top: 0;
   }
   .accordion-button.collapsed {
-    padding: 8px 0;
+    padding: 8px 22px 8px 0;
   }
 }
 @media (max-width: 991px) {
