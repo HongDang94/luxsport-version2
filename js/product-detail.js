@@ -79,64 +79,72 @@ jQuery(document).ready(function ($) {
     );
   }
 
-
   SrollTab();
 
-
   //XZoom
-  $(".xzoom, .xzoom-gallery").xzoom({tint: '#006699', Xoffset: 15});
-	   
+  $(".xzoom, .xzoom-gallery").xzoom({ tint: "#006699", Xoffset: 15 });
+
   //Integration with hammer.js
-  var isTouchSupported = 'ontouchstart' in window;
-  
+  var isTouchSupported = "ontouchstart" in window;
+
   if (isTouchSupported) {
-    $('.xzoom').each(function() {
-      var xzoom = $(this).data('xzoom');
-      $(this).hammer().on("tap", function(event) {
-        event.pageX = event.gesture.center.pageX;
-        event.pageY = event.gesture.center.pageY;
-        var s = 1, ls;
+    $(".xzoom").each(function () {
+      var xzoom = $(this).data("xzoom");
+      $(this)
+        .hammer()
+        .on("tap", function (event) {
+          event.pageX = event.gesture.center.pageX;
+          event.pageY = event.gesture.center.pageY;
+          var s = 1,
+            ls;
 
-        xzoom.eventmove = function(element) {
-          element.hammer().on('drag', function(event) {
-            event.pageX = event.gesture.center.pageX;
-            event.pageY = event.gesture.center.pageY;
-            xzoom.movezoom(event);
-            event.gesture.preventDefault();
-          });
-        }
+          xzoom.eventmove = function (element) {
+            element.hammer().on("drag", function (event) {
+              event.pageX = event.gesture.center.pageX;
+              event.pageY = event.gesture.center.pageY;
+              xzoom.movezoom(event);
+              event.gesture.preventDefault();
+            });
+          };
 
-        var counter = 0;
-        xzoom.eventclick = function(element) {
-          element.hammer().on('tap', function() {
-            counter++;
-            if (counter == 1) setTimeout(openfancy,300);
-            event.gesture.preventDefault();
-          });
-        }
+          var counter = 0;
+          xzoom.eventclick = function (element) {
+            element.hammer().on("tap", function () {
+              counter++;
+              if (counter == 1) setTimeout(openfancy, 300);
+              event.gesture.preventDefault();
+            });
+          };
 
-        function openfancy() {
-          if (counter == 2) {
-            xzoom.closezoom();
-            $.fancybox.open(xzoom.gallery().cgallery);
-          } else {
-            xzoom.closezoom();
+          function openfancy() {
+            if (counter == 2) {
+              xzoom.closezoom();
+              $.fancybox.open(xzoom.gallery().cgallery);
+            } else {
+              xzoom.closezoom();
+            }
+            counter = 0;
           }
-          counter = 0;
-        }
-        
-        xzoom.openzoom(event);
-      });
-    });					
-  }
-  else {
-    $('#xzoom-fancy').bind('click', function(event) {
-      var xzoom = $(this).data('xzoom');
+
+          xzoom.openzoom(event);
+        });
+    });
+  } else {
+    $("#xzoom-fancy").bind("click", function (event) {
+      var xzoom = $(this).data("xzoom");
       xzoom.closezoom();
-      $.fancybox.open(xzoom.gallery().cgallery, {padding: 0, helpers: {overlay: {locked: false}}});
+      $.fancybox.open(xzoom.gallery().cgallery, {
+        padding: 0,
+        helpers: { overlay: { locked: false } },
+      });
       event.preventDefault();
     });
   }
-  
-  $("#fist-thumb").trigger('click')
+
+  $("#fist-thumb").trigger("click");
+
+  $(".moreless-button").click(function () {
+    $(".moretext").slideToggle();
+    $(this).parents().addClass("active");
+  });
 });
