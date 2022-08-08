@@ -16,7 +16,7 @@ header {
   }
 
   .list-page {
-    >li {
+    > li {
       a {
         position: relative;
         line-height: 58px !important;
@@ -44,7 +44,7 @@ header {
         margin-right: 0;
       }
       &.active {
-        >a {
+        > a {
           color: #ed1c24;
           &:before {
             display: block;
@@ -52,7 +52,7 @@ header {
         }
       }
       &:hover {
-        .dropdown-category-multi{
+        .dropdown-category-multi {
           display: flex;
           top: 58px;
           opacity: 1;
@@ -100,18 +100,18 @@ header {
   }
 }
 
-.dropdown-category-multi{
+.dropdown-category-multi {
   position: absolute;
-      -webkit-transition: all 0.4s ease-in-out 0s;
-    -moz-transition: all 0.4s ease-in-out 0s;
-    -o-transition: all 0.4s ease-in-out 0s;
-    transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  -o-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
   padding: 24px;
   width: 100%;
   left: 0;
   right: 0;
   max-width: 100%;
-  background: #FFFFFF;
+  background: #ffffff;
   top: 110px;
   border-radius: 0;
   align-items: flex-start;
@@ -575,9 +575,8 @@ footer {
 
   a {
     margin-left: 20px;
-    height: 33px;
     display: block;
-    width: 92px;
+    width: 139px;
     img {
       width: 100%;
     }

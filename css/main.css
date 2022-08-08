@@ -93,7 +93,7 @@ header .btn-call:hover, header .btn-call:focus {
   left: 0;
   right: 0;
   max-width: 100%;
-  background: #FFFFFF;
+  background: #ffffff;
   top: 110px;
   border-radius: 0;
   align-items: flex-start;
@@ -531,9 +531,8 @@ footer h4 {
 }
 .policy-box a {
   margin-left: 20px;
-  height: 33px;
   display: block;
-  width: 92px;
+  width: 139px;
 }
 .policy-box a img {
   width: 100%;
