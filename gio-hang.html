@@ -1,370 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="./img/favicon.png" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/cart.css" />
+    <title>Giỏ hàng</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="icon" type="image/png" href="./img/favicon.png" />
-  <link rel="stylesheet" href="./css/bootstrap.min.css" />
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="stylesheet" href="./css/main.css" />
-  <link rel="stylesheet" href="./css/responsive.css" />
-  <link rel="stylesheet" href="./css/cart.css" />
-  <title>Giỏ hàng</title>
-</head>
-
-<body>
-  <header>
-    <div>
-      <a href="https://luxsport.com.vn/" target="_blank" class="logo"><img src="./img/logo.png" alt="Lux Sport" /></a>
-      <ul class="list-page">
-        <li>
-          <a href="danh-sach-san-pham.html" target="_blank" class="h5">Ghế massage</a>
-          <div class="dropdown-category-multi">
-            <div class="container">     
-              <div class="col-lg-3">
-                <ul>
-                  <li class="color-neutral-dark">
-                    <a href="#.">Danh mục cấp 2 - 1</a>
-                  </li>
-                  <li class="color-neutral-dark">
-                    <a href="#.">Danh mục cấp 2 - 2</a>
-                  </li>
-                  <li class="color-neutral-dark">
-                    <a href="#.">Danh mục cấp 2 - 3</a>
-                  </li>
-                  <li class="color-neutral-dark">
-                    <a href="#.">Danh mục cấp 2 - 4</a>
-                  </li>
-                  <li class="color-neutral-dark">
-                    <a href="#.">Danh mục cấp 2 - 5</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="img">
-                <img src="./img/category-detail-menu.png" alt="" />
+  <body>
+    <header>
+      <div>
+        <a href="https://luxsport.com.vn/" target="_blank" class="logo"
+          ><img src="./img/logo.png" alt="Lux Sport"
+        /></a>
+        <ul class="list-page">
+          <li>
+            <a href="danh-sach-san-pham.html" target="_blank" class="h5"
+              >Ghế massage</a
+            >
+            <div class="dropdown-category-multi">
+              <div class="container">
+                <div class="col-lg-3">
+                  <ul>
+                    <li class="color-neutral-dark">
+                      <a href="#.">Danh mục cấp 2 - 1</a>
+                    </li>
+                    <li class="color-neutral-dark">
+                      <a href="#.">Danh mục cấp 2 - 2</a>
+                    </li>
+                    <li class="color-neutral-dark">
+                      <a href="#.">Danh mục cấp 2 - 3</a>
+                    </li>
+                    <li class="color-neutral-dark">
+                      <a href="#.">Danh mục cấp 2 - 4</a>
+                    </li>
+                    <li class="color-neutral-dark">
+                      <a href="#.">Danh mục cấp 2 - 5</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="img">
+                  <img src="./img/category-detail-menu.png" alt="" />
+                </div>
               </div>
             </div>
-          </div>
-        </li>
-        <li>
-          <a href="#." target="_blank" class="h5">Thiết bị thể thao</a>
-          <div class="dropdown-category-multi">
-            <div class="container">     
-              <div class="col-lg-3">
-                <ul>
-                  <li class="color-neutral-dark">
-                    <a href="#.">Danh mục cấp 2 - 1</a>
-                  </li>
-                  <li class="color-neutral-dark">
-                    <a href="#.">Danh mục cấp 2 - 2</a>
-                  </li>
-                  <li class="color-neutral-dark">
-                    <a href="#.">Danh mục cấp 2 - 3</a>
-                  </li>
-                  <li class="color-neutral-dark">
-                    <a href="#.">Danh mục cấp 2 - 4</a>
-                  </li>
-                  <li class="color-neutral-dark">
-                    <a href="#.">Danh mục cấp 2 - 5</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="img">
-                <img src="./img/category-detail-menu.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </li>
-        <li>
-          <a href="#." target="_blank" class="h5">Home gym</a>
-          <div class="dropdown-category-multi">
-            <div class="container">     
-              <div class="col-lg-3">
-                <ul>
-                  <li class="color-neutral-dark">
-                    <a href="#.">Danh mục cấp 2 - 1</a>
-                  </li>
-                  <li class="color-neutral-dark">
-                    <a href="#.">Danh mục cấp 2 - 2</a>
-                  </li>
-                  <li class="color-neutral-dark">
-                    <a href="#.">Danh mục cấp 2 - 3</a>
-                  </li>
-                  <li class="color-neutral-dark">
-                    <a href="#.">Danh mục cấp 2 - 4</a>
-                  </li>
-                  <li class="color-neutral-dark">
-                    <a href="#.">Danh mục cấp 2 - 5</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="img">
-                <img src="./img/category-detail-menu.png" alt="" />
+          </li>
+          <li>
+            <a href="#." target="_blank" class="h5">Thiết bị thể thao</a>
+            <div class="dropdown-category-multi">
+              <div class="container">
+                <div class="col-lg-3">
+                  <ul>
+                    <li class="color-neutral-dark">
+                      <a href="#.">Danh mục cấp 2 - 1</a>
+                    </li>
+                    <li class="color-neutral-dark">
+                      <a href="#.">Danh mục cấp 2 - 2</a>
+                    </li>
+                    <li class="color-neutral-dark">
+                      <a href="#.">Danh mục cấp 2 - 3</a>
+                    </li>
+                    <li class="color-neutral-dark">
+                      <a href="#.">Danh mục cấp 2 - 4</a>
+                    </li>
+                    <li class="color-neutral-dark">
+                      <a href="#.">Danh mục cấp 2 - 5</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="img">
+                  <img src="./img/category-detail-menu.png" alt="" />
+                </div>
               </div>
             </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-
-    <h1><a href="index.html" target="_blank">Lux sport</a></h1>
-
-    <div>
-      <ul class="list-page">
-        <li>
-          <a href="#." target="_blank" class="h5">Hoạt động xã hội</a>
-        </li>
-        <li>
-          <a href="#." target="_blank" class="h5">Bảo hành</a>
-        </li>
-        <li>
-          <a href="danh-sach-tin-tuc.html" target="_blank" class="h5">Tin tức</a>
-        </li>
-        <li>
-          <a href="lien-he.html" target="_blank" class="h5">Liên hệ</a>
-        </li>
-      </ul>
-      <div class="btn-group-wrap">
-        <div class="btn-wrap">
-          <button type="button" class="btn btn-icon btn-search" data-bs-toggle="dropdown" aria-expanded="false"
-            data-bs-auto-close="outside"></button>
-          <form class="dropdown-menu dropdown-menu-search">
-            <h4 for="search-dropdown">Search</h4>
-            <div class="form-control-wrap">
-              <input class="form-control" id="search-dropdown" placeholder="Typing..." />
-              <button type="button" class="icon-search"></button>
+          </li>
+          <li>
+            <a href="#." target="_blank" class="h5">Home gym</a>
+            <div class="dropdown-category-multi">
+              <div class="container">
+                <div class="col-lg-3">
+                  <ul>
+                    <li class="color-neutral-dark">
+                      <a href="#.">Danh mục cấp 2 - 1</a>
+                    </li>
+                    <li class="color-neutral-dark">
+                      <a href="#.">Danh mục cấp 2 - 2</a>
+                    </li>
+                    <li class="color-neutral-dark">
+                      <a href="#.">Danh mục cấp 2 - 3</a>
+                    </li>
+                    <li class="color-neutral-dark">
+                      <a href="#.">Danh mục cấp 2 - 4</a>
+                    </li>
+                    <li class="color-neutral-dark">
+                      <a href="#.">Danh mục cấp 2 - 5</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="img">
+                  <img src="./img/category-detail-menu.png" alt="" />
+                </div>
+              </div>
             </div>
-            <p class="quantity-result p2">3 results</p>
-            <ul class="result-list-product">
-              <li>
-                <a href="#" target="_blank">
-                  <div class="box-img">
-                    <img src="./img/product/product-1.jpg" alt="" />
-                  </div>
-                  <div class="box-content">
-                    <p class="p2">
-                      Ghế Massage Lux Sport Boss Ghế Massage Lux Sport Boss
-                      ...
-                    </p>
-                    <strong class="h4">160.990.000 đ</strong>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="#" target="_blank">
-                  <div class="box-img">
-                    <img src="./img/product/product-1.jpg" alt="" />
-                  </div>
-                  <div class="box-content">
-                    <p class="p2">
-                      Ghế Massage Lux Sport Boss Ghế Massage Lux Sport Boss
-                      ...
-                    </p>
-                    <strong class="h4">160.990.000 đ</strong>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="#" target="_blank">
-                  <div class="box-img">
-                    <img src="./img/product/product-1.jpg" alt="" />
-                  </div>
-                  <div class="box-content">
-                    <p class="p2">
-                      Ghế Massage Lux Sport Boss Ghế Massage Lux Sport Boss
-                      ...
-                    </p>
-                    <strong class="h4">160.990.000 đ</strong>
-                  </div>
-                </a>
-              </li>
-            </ul>
-            <a class="view-all d-block text-center" target="_blank" href="#.">View all results</a>
-          </form>
-        </div>
-        <div class="btn-wrap">
-          <button type="button" class="btn btn-icon btn-call" data-bs-toggle="dropdown" aria-expanded="false"
-            data-bs-auto-close="outside"></button>
-          <ul class="dropdown-menu dropdown-menu-contact">
-            <li class="item item-call">
-              <a href="tel:19000065">
-                <strong class="red">1900 0065</strong>
-                <p>Hỗ trợ 24/7</p>
-              </a>
-            </li>
-            <li class="item item-zalo">
-              <a href="https://zalo.me/0772959888" target="_blank">
-                <strong class="blue">0772959888</strong>
-                <p>Zalo chat 24/7</p>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <button type="button" class="btn btn-icon btn-cart"><span class="badge-number">6</span></button>
+          </li>
+        </ul>
       </div>
-    </div>
-  </header>
 
-  <div class="gnb-mo">
-    <button type="button" class="btn_menu" data-bs-toggle="modal" data-bs-target="#modalMenu">
-      <img src="./img/icon-hamberger-mo.svg" alt="" />
-    </button>
-    <a href="#." target="_blank" class="logo-text">Lux sport</a>
-    <div class="btn-group-action">
-      <button type="button" id="btn-search-mo" data-bs-toggle="modal" data-bs-target="#modalSearch">
-        <img src="./img/icon-search-mo.svg" alt="" />
-      </button>
-      <button type="button" class="btn-cart">
-        <img src="./img/icon-cart-mo.svg" alt="" />
-        <span class="badge-number">6</span>
-      </button>
-    </div>
-  </div>
+      <h1><a href="index.html" target="_blank">Lux sport</a></h1>
 
-  <section class="cart-wrap">
-    <div class="container">
-      <h1>Giỏ hàng (2)</h1>
-      <div class="row">
-        <div class="col-lg-8 col-md-12 col-sm-12 list-cart-box">
-          <div class="list-cart">
-            <div class="cart-item">
-              <div class="cart-left">
-                <div class="box-img">
-                  <img src="./img/product/product-1.jpg" alt="" />
-                </div>
-                <div class="box-content">
-                  <p class="p1">
-                    Ghế Massage Lux Sport Boss Ghế Massage Lux Sport Boss Ghế
-                    Massage Lux Sport Boss Ghế Massage Lux Sport Boss
-                  </p>
-                  <div class="price-detail">
-                    <strong class="h3">160.990.000 đ</strong>
-                    <del><span class="price-origin">20.500.000</span></del>
-                    <span class="small-text2 discount-percent">-12%</span>
-                  </div>
-                </div>
+      <div>
+        <ul class="list-page">
+          <li>
+            <a href="#." target="_blank" class="h5">Hoạt động xã hội</a>
+          </li>
+          <li>
+            <a href="#." target="_blank" class="h5">Bảo hành</a>
+          </li>
+          <li>
+            <a href="danh-sach-tin-tuc.html" target="_blank" class="h5"
+              >Tin tức</a
+            >
+          </li>
+          <li>
+            <a href="lien-he.html" target="_blank" class="h5">Liên hệ</a>
+          </li>
+        </ul>
+        <div class="btn-group-wrap">
+          <div class="btn-wrap">
+            <button
+              type="button"
+              class="btn btn-icon btn-search"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              data-bs-auto-close="outside"
+            ></button>
+            <form class="dropdown-menu dropdown-menu-search">
+              <h4 for="search-dropdown">Tìm kiếm</h4>
+              <div class="form-control-wrap">
+                <input
+                  class="form-control"
+                  id="search-dropdown"
+                  placeholder="Tìm sản phẩm"
+                />
+                <button type="button" class="icon-search"></button>
               </div>
-
-              <div class="cart-right">
-                <div class="counter">
-                  <button type="button" class="btn btn-minus">
-                    <img src="./img/icon-minus.svg" alt="" />
-                  </button>
-                  <input type="text" value="1" class="quantity" />
-                  <button type="button" class="btn btn-plus">
-                    <img src="./img/icon-plus.svg" alt="" />
-                  </button>
-                </div>
-                <button class="btn btn-delete">
-                  <img src="./img/icon-delete.svg" alt="" />Xóa
-                </button>
-              </div>
-            </div>
-            <div class="cart-item">
-              <div class="cart-left">
-                <div class="box-img">
-                  <img src="./img/product/product-1.jpg" alt="" />
-                </div>
-                <div class="box-content">
-                  <p class="p1">
-                    Ghế Massage Lux Sport Boss Ghế Massage Lux Sport Boss Ghế
-                    Massage Lux Sport Boss Ghế Massage Lux Sport Boss
-                  </p>
-                  <div class="price-detail">
-                    <strong class="h3">160.990.000 đ</strong>
-                    <del><span class="price-origin">20.500.000</span></del>
-                    <span class="small-text2 discount-percent">-12%</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="cart-right">
-                <div class="counter">
-                  <button type="button" class="btn btn-minus">
-                    <img src="./img/icon-minus.svg" alt="" />
-                  </button>
-                  <input type="text" value="1" class="quantity" />
-                  <button type="button" class="btn btn-plus">
-                    <img src="./img/icon-plus.svg" alt="" />
-                  </button>
-                </div>
-                <button class="btn btn-delete">
-                  <img src="./img/icon-delete.svg" alt="" />Xóa
-                </button>
-              </div>
-            </div>
+              <p class="quantity-result p2">3 kết quả</p>
+              <ul class="result-list-product">
+                <li>
+                  <a href="#" target="_blank">
+                    <div class="box-img">
+                      <img src="./img/product/product-1.jpg" alt="" />
+                    </div>
+                    <div class="box-content">
+                      <p class="p2">
+                        Ghế Massage Lux Sport Boss Ghế Massage Lux Sport Boss
+                        ...
+                      </p>
+                      <strong class="h4">160.990.000 đ</strong>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <div class="box-img">
+                      <img src="./img/product/product-1.jpg" alt="" />
+                    </div>
+                    <div class="box-content">
+                      <p class="p2">
+                        Ghế Massage Lux Sport Boss Ghế Massage Lux Sport Boss
+                        ...
+                      </p>
+                      <strong class="h4">160.990.000 đ</strong>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <div class="box-img">
+                      <img src="./img/product/product-1.jpg" alt="" />
+                    </div>
+                    <div class="box-content">
+                      <p class="p2">
+                        Ghế Massage Lux Sport Boss Ghế Massage Lux Sport Boss
+                        ...
+                      </p>
+                      <strong class="h4">160.990.000 đ</strong>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+              <a class="view-all d-block text-center" target="_blank" href="#."
+                >Xem tất cả kết quả</a
+              >
+            </form>
           </div>
-          <div class="btn-group-cart">
-            <button type="button" class="btn btn-white">
-              Quay lại mua sắm
-            </button>
-            <button type="button" class="btn btn-green">
-              Cập nhật giỏ hàng
-            </button>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 total-price-box">
-          <div>
-            <h3>Tạm tính đơn hàng</h3>
-
-            <div class="item-price show-pc">
-              <p class="p1">Tạm tính:</p>
-              <strong class="price">160.990.000 đ</strong>
-            </div>
-            <div class="item-price show-pc">
-              <p class="p1">Giảm giá:</p>
-              <strong class="price">0</strong>
-            </div>
-            <div class="item-price">
-              <p class="p1">Tổng cộng:</p>
-              <strong class="price red">160.990.000 đ</strong>
-            </div>
-          </div>
-          <div class="btn-group-cart">
-            <button type="button" class="btn btn-danger">Mua ngay</button>
-            <button type="button" class="btn btn-primary">Trả góp 0%</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <div class="modal fade left" id="modalMenu" tabindex="-1" aria-labelledby="modalMenuLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <a href="#." target="_blank" class="logo-text">Lux sport</a>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body p-0">
-          <div class="gnb_wrap">
-            <ul class="list-page-mo">
-              <li>
-                <a href="danh-sach-san-pham.html" target="_blank">Ghế massage</a>
-              </li>
-              <li>
-                <a href="#." target="_blank">Thiết bị thể thao</a>
-              </li>
-              <li>
-                <a href="#." target="_blank">Home gym</a>
-              </li>
-              <li>
-                <a href="#." target="_blank">Hoạt động xã hội</a>
-              </li>
-              <li>
-                <a href="#." target="_blank">Bảo hành</a>
-              </li>
-              <li>
-                <a href="#." target="_blank">Tin tức</a>
-              </li>
-              <li>
-                <a href="#." target="_blank">Liên hệ</a>
-              </li>
-            </ul>
-            <ul class="dropdown-menu-contact w-100">
+          <div class="btn-wrap">
+            <button
+              type="button"
+              class="btn btn-icon btn-call"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              data-bs-auto-close="outside"
+            ></button>
+            <ul class="dropdown-menu dropdown-menu-contact">
               <li class="item item-call">
                 <a href="tel:19000065">
                   <strong class="red">1900 0065</strong>
@@ -379,77 +230,294 @@
               </li>
             </ul>
           </div>
+          <button type="button" class="btn btn-icon btn-cart">
+            <span class="badge-number">6</span>
+          </button>
         </div>
       </div>
-    </div>
-  </div>
+    </header>
 
-  <div class="modal fade right" id="modalSearch" tabindex="-1" aria-labelledby="modalSearchLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="btn btn-back-search" data-bs-dismiss="modal" aria-label="Black"></button>
-          <h4 class="modal-title color-main" id="modalSearchLabel">Search</h4>
-        </div>
-        <div class="modal-body">
-          <form class="dropdown-menu-search">
-            <div class="form-control-wrap">
-              <input class="form-control" id="search-dropdown" placeholder="Typing..." />
-              <button type="button" class="icon-search"></button>
+    <div class="gnb-mo">
+      <button
+        type="button"
+        class="btn_menu"
+        data-bs-toggle="modal"
+        data-bs-target="#modalMenu"
+      >
+        <img src="./img/icon-hamberger-mo.svg" alt="" />
+      </button>
+      <a href="#." target="_blank" class="logo-text">Lux sport</a>
+      <div class="btn-group-action">
+        <button
+          type="button"
+          id="btn-search-mo"
+          data-bs-toggle="modal"
+          data-bs-target="#modalSearch"
+        >
+          <img src="./img/icon-search-mo.svg" alt="" />
+        </button>
+        <button type="button" class="btn-cart">
+          <img src="./img/icon-cart-mo.svg" alt="" />
+          <span class="badge-number">6</span>
+        </button>
+      </div>
+    </div>
+
+    <section class="cart-wrap">
+      <div class="container">
+        <h1>Giỏ hàng (2)</h1>
+        <div class="row">
+          <div class="col-lg-8 col-md-12 col-sm-12 list-cart-box">
+            <div class="list-cart">
+              <div class="cart-item">
+                <div class="cart-left">
+                  <div class="box-img">
+                    <img src="./img/product/product-1.jpg" alt="" />
+                  </div>
+                  <div class="box-content">
+                    <p class="p1">
+                      Ghế Massage Lux Sport Boss Ghế Massage Lux Sport Boss Ghế
+                      Massage Lux Sport Boss Ghế Massage Lux Sport Boss
+                    </p>
+                    <div class="price-detail">
+                      <strong class="h3">160.990.000 đ</strong>
+                      <del><span class="price-origin">20.500.000</span></del>
+                      <span class="small-text2 discount-percent">-12%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="cart-right">
+                  <div class="counter">
+                    <button type="button" class="btn btn-minus">
+                      <img src="./img/icon-minus.svg" alt="" />
+                    </button>
+                    <input type="text" value="1" class="quantity" />
+                    <button type="button" class="btn btn-plus">
+                      <img src="./img/icon-plus.svg" alt="" />
+                    </button>
+                  </div>
+                  <button class="btn btn-delete">
+                    <img src="./img/icon-delete.svg" alt="" />Xóa
+                  </button>
+                </div>
+              </div>
+              <div class="cart-item">
+                <div class="cart-left">
+                  <div class="box-img">
+                    <img src="./img/product/product-1.jpg" alt="" />
+                  </div>
+                  <div class="box-content">
+                    <p class="p1">
+                      Ghế Massage Lux Sport Boss Ghế Massage Lux Sport Boss Ghế
+                      Massage Lux Sport Boss Ghế Massage Lux Sport Boss
+                    </p>
+                    <div class="price-detail">
+                      <strong class="h3">160.990.000 đ</strong>
+                      <del><span class="price-origin">20.500.000</span></del>
+                      <span class="small-text2 discount-percent">-12%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="cart-right">
+                  <div class="counter">
+                    <button type="button" class="btn btn-minus">
+                      <img src="./img/icon-minus.svg" alt="" />
+                    </button>
+                    <input type="text" value="1" class="quantity" />
+                    <button type="button" class="btn btn-plus">
+                      <img src="./img/icon-plus.svg" alt="" />
+                    </button>
+                  </div>
+                  <button class="btn btn-delete">
+                    <img src="./img/icon-delete.svg" alt="" />Xóa
+                  </button>
+                </div>
+              </div>
             </div>
-            <p class="quantity-result p2">3 results</p>
-            <ul class="result-list-product">
-              <li>
-                <a href="#" target="_blank">
-                  <div class="box-img">
-                    <img src="./img/product/product-1.jpg" alt="" />
-                  </div>
-                  <div class="box-content">
-                    <p class="p2">
-                      Ghế Massage Lux Sport Boss Ghế Massage Lux Sport Boss
-                      ...
-                    </p>
-                    <strong class="h4">160.990.000 đ</strong>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="#" target="_blank">
-                  <div class="box-img">
-                    <img src="./img/product/product-1.jpg" alt="" />
-                  </div>
-                  <div class="box-content">
-                    <p class="p2">
-                      Ghế Massage Lux Sport Boss Ghế Massage Lux Sport Boss
-                      ...
-                    </p>
-                    <strong class="h4">160.990.000 đ</strong>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="#" target="_blank">
-                  <div class="box-img">
-                    <img src="./img/product/product-1.jpg" alt="" />
-                  </div>
-                  <div class="box-content">
-                    <p class="p2">
-                      Ghế Massage Lux Sport Boss Ghế Massage Lux Sport Boss
-                      ...
-                    </p>
-                    <strong class="h4">160.990.000 đ</strong>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </form>
+            <div class="btn-group-cart">
+              <button type="button" class="btn btn-white">
+                Quay lại mua sắm
+              </button>
+              <button type="button" class="btn btn-green">
+                Cập nhật giỏ hàng
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12 total-price-box">
+            <div>
+              <h3>Tạm tính đơn hàng</h3>
+
+              <div class="item-price show-pc">
+                <p class="p1">Tạm tính:</p>
+                <strong class="price">160.990.000 đ</strong>
+              </div>
+              <div class="item-price show-pc">
+                <p class="p1">Giảm giá:</p>
+                <strong class="price">0</strong>
+              </div>
+              <div class="item-price">
+                <p class="p1">Tổng cộng:</p>
+                <strong class="price red">160.990.000 đ</strong>
+              </div>
+            </div>
+            <div class="btn-group-cart">
+              <button type="button" class="btn btn-danger">Mua ngay</button>
+              <button type="button" class="btn btn-primary">Trả góp 0%</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="modal fade left"
+      id="modalMenu"
+      tabindex="-1"
+      aria-labelledby="modalMenuLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a href="#." target="_blank" class="logo-text">Lux sport</a>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body p-0">
+            <div class="gnb_wrap">
+              <ul class="list-page-mo">
+                <li>
+                  <a href="danh-sach-san-pham.html" target="_blank"
+                    >Ghế massage</a
+                  >
+                </li>
+                <li>
+                  <a href="#." target="_blank">Thiết bị thể thao</a>
+                </li>
+                <li>
+                  <a href="#." target="_blank">Home gym</a>
+                </li>
+                <li>
+                  <a href="#." target="_blank">Hoạt động xã hội</a>
+                </li>
+                <li>
+                  <a href="#." target="_blank">Bảo hành</a>
+                </li>
+                <li>
+                  <a href="#." target="_blank">Tin tức</a>
+                </li>
+                <li>
+                  <a href="#." target="_blank">Liên hệ</a>
+                </li>
+              </ul>
+              <ul class="dropdown-menu-contact w-100">
+                <li class="item item-call">
+                  <a href="tel:19000065">
+                    <strong class="red">1900 0065</strong>
+                    <p>Hỗ trợ 24/7</p>
+                  </a>
+                </li>
+                <li class="item item-zalo">
+                  <a href="https://zalo.me/0772959888" target="_blank">
+                    <strong class="blue">0772959888</strong>
+                    <p>Zalo chat 24/7</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <script src="./js/vendors/bootstrap.bundle.min.js"></script>
-  <script src="./js/vendors/vendor.js"></script>
-</body>
+    <div
+      class="modal fade right"
+      id="modalSearch"
+      tabindex="-1"
+      aria-labelledby="modalSearchLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn btn-back-search"
+              data-bs-dismiss="modal"
+              aria-label="Black"
+            ></button>
+            <h4 class="modal-title color-main" id="modalSearchLabel">
+              Tìm kiếm
+            </h4>
+          </div>
+          <div class="modal-body">
+            <form class="dropdown-menu-search">
+              <div class="form-control-wrap">
+                <input
+                  class="form-control"
+                  id="search-dropdown"
+                  placeholder="Tìm sản phẩm"
+                />
+                <button type="button" class="icon-search"></button>
+              </div>
+              <p class="quantity-result p2">3 kết quả</p>
+              <ul class="result-list-product">
+                <li>
+                  <a href="#" target="_blank">
+                    <div class="box-img">
+                      <img src="./img/product/product-1.jpg" alt="" />
+                    </div>
+                    <div class="box-content">
+                      <p class="p2">
+                        Ghế Massage Lux Sport Boss Ghế Massage Lux Sport Boss
+                        ...
+                      </p>
+                      <strong class="h4">160.990.000 đ</strong>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <div class="box-img">
+                      <img src="./img/product/product-1.jpg" alt="" />
+                    </div>
+                    <div class="box-content">
+                      <p class="p2">
+                        Ghế Massage Lux Sport Boss Ghế Massage Lux Sport Boss
+                        ...
+                      </p>
+                      <strong class="h4">160.990.000 đ</strong>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <div class="box-img">
+                      <img src="./img/product/product-1.jpg" alt="" />
+                    </div>
+                    <div class="box-content">
+                      <p class="p2">
+                        Ghế Massage Lux Sport Boss Ghế Massage Lux Sport Boss
+                        ...
+                      </p>
+                      <strong class="h4">160.990.000 đ</strong>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <script src="./js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="./js/vendors/vendor.js"></script>
+  </body>
 </html>
