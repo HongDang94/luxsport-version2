@@ -4,7 +4,7 @@ jQuery(document).ready(function ($) {
     spaceBetween: 30,
     effect: "fade",
     loop: true,
-    allowTouchMove: false,
+    simulateTouch: false,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
@@ -15,7 +15,7 @@ jQuery(document).ready(function ($) {
     slidesPerView: "auto",
     spaceBetween: 24,
     loop: false,
-    allowTouchMove: false,
+    simulateTouch: false,
     breakpoints: {
       320: {
         spaceBetween: 12,
@@ -44,7 +44,7 @@ jQuery(document).ready(function ($) {
     slidesPerView: 5,
     spaceBetween: 16,
     loop: true,
-    allowTouchMove: false,
+    simulateTouch: false,
     navigation: {
       nextEl: ".swiper-button-next.next-btn",
       prevEl: ".swiper-button-prev.prev-btn",
@@ -81,7 +81,6 @@ jQuery(document).ready(function ($) {
     slidesPerView: 5,
     spaceBetween: 16,
     loop: true,
-    allowTouchMove: false,
     navigation: {
       nextEl: ".swiper-button-next.next-btn-news",
       prevEl: ".swiper-button-prev.prev-btn-news",
@@ -118,7 +117,6 @@ jQuery(document).ready(function ($) {
     slidesPerView: 4,
     spaceBetween: 16,
     loop: true,
-    allowTouchMove: false,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
@@ -155,7 +153,6 @@ jQuery(document).ready(function ($) {
     slidesPerView: 4,
     spaceBetween: 16,
     loop: true,
-    allowTouchMove: false,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
@@ -192,7 +189,6 @@ jQuery(document).ready(function ($) {
     slidesPerView: 3,
     spaceBetween: 24,
     loop: true,
-    allowTouchMove: false,
     pagination: {
       el: ".swiper-pagination.pagination-video",
       clickable: true,
@@ -225,7 +221,6 @@ jQuery(document).ready(function ($) {
     slidesPerView: 3,
     spaceBetween: 24,
     loop: true,
-    allowTouchMove: false,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
