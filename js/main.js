@@ -56,17 +56,17 @@ jQuery(document).ready(function ($) {
       320: {
         slidesPerView: 2,
         spaceBetween: 15,
-        allowTouchMove: false,
+        noSwiping: true,
       },
       768: {
         slidesPerView: 3,
         spaceBetween: 15,
-        allowTouchMove: false,
+        noSwiping: true,
       },
       1024: {
         slidesPerView: 4,
         spaceBetween: 30,
-        allowTouchMove: false,
+        noSwiping: true,
       },
       1280: {
         slidesPerView: 5,
@@ -95,17 +95,17 @@ jQuery(document).ready(function ($) {
       320: {
         slidesPerView: 2,
         spaceBetween: 15,
-        allowTouchMove: false,
+        noSwiping: true,
       },
       768: {
         slidesPerView: 3,
         spaceBetween: 15,
-        allowTouchMove: false,
+        noSwiping: true,
       },
       1024: {
         slidesPerView: 4,
         spaceBetween: 30,
-        allowTouchMove: false,
+        noSwiping: true,
       },
       1280: {
         slidesPerView: 5,
