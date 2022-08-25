@@ -47,10 +47,10 @@ header .list-page > li.active > a:before {
   display: block;
 }
 header .list-page > li:hover .dropdown-category-multi {
-  display: flex;
-  top: 58px;
-  opacity: 1;
+  pointer-events: inherit;
   visibility: visible;
+  opacity: 1;
+  top: 100%;
 }
 header h1 {
   font-weight: 700;
@@ -75,28 +75,31 @@ header .btn-group-wrap {
 header .btn-search {
   background: #f3f4f4 url(../img/icon-search.svg) center no-repeat;
 }
-header .btn-search:hover, header .btn-search:focus {
+header .btn-search:hover,
+header .btn-search:focus {
   background: #fef8f8 url(../img/icon-search-hover.svg) center no-repeat;
 }
 header .btn-call {
   background: #f3f4f4 url(../img/icon-call.svg) center no-repeat;
 }
-header .btn-call:hover, header .btn-call:focus {
+header .btn-call:hover,
+header .btn-call:focus {
   background: #fef8f8 url(../img/icon-call-hover.svg) center no-repeat;
 }
 
 .dropdown-category-multi {
   position: absolute;
   transition: all 0.4s ease-in-out 0s;
+  top: 100%;
   padding: 24px;
-  width: 100%;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  pointer-events: none;
   left: 0;
   right: 0;
-  max-width: 100%;
   background: #ffffff;
-  top: 110px;
-  border-radius: 0;
-  align-items: flex-start;
+  top: 140%;
+  display: block;
   opacity: 0;
   visibility: hidden;
   box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.16), 0px 18px 28px rgba(0, 0, 0, 0.06);
@@ -124,7 +127,8 @@ header .btn-call:hover, header .btn-call:focus {
   position: relative;
   background: #f3f4f4 url(../img/icon-cart.svg) center no-repeat;
 }
-.btn-cart:hover, .btn-cart:focus {
+.btn-cart:hover,
+.btn-cart:focus {
   background: #fef8f8 url(../img/icon-cart.svg) center no-repeat;
 }
 
@@ -635,7 +639,8 @@ a.view-all {
   border-radius: 8px;
 }
 .youtube:after {
-  background: rgba(0, 0, 0, 0.3) url(../img/icon-open-youtube.svg) center no-repeat;
+  background: rgba(0, 0, 0, 0.3) url(../img/icon-open-youtube.svg) center
+    no-repeat;
   position: fixed;
   left: 0;
   top: 0;
@@ -684,4 +689,4 @@ body {
     --max-width: 900px;
     --aside-width: 300px;
   }
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
