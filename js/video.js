@@ -29,6 +29,7 @@ function getVideos(el) {
     function () {
       var iframe = document.createElement("iframe");
       iframe.setAttribute("class", "youtube_video");
+      iframe.setAttribute("allowFullScreen", "");
       iframe.setAttribute(
         "src",
         "https://www.youtube.com/embed/" +
