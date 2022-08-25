@@ -4,7 +4,6 @@ jQuery(document).ready(function ($) {
     spaceBetween: 30,
     effect: "fade",
     loop: true,
-    simulateTouch: false,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
@@ -15,13 +14,14 @@ jQuery(document).ready(function ($) {
     slidesPerView: "auto",
     spaceBetween: 24,
     loop: false,
-    simulateTouch: false,
     breakpoints: {
       320: {
         spaceBetween: 12,
+        touchRatio: 0,
       },
       1024: {
         spaceBetween: 24,
+        touchRatio: 0,
       },
     },
   });
@@ -44,7 +44,6 @@ jQuery(document).ready(function ($) {
     slidesPerView: 5,
     spaceBetween: 16,
     loop: true,
-    simulateTouch: false,
     navigation: {
       nextEl: ".swiper-button-next.next-btn",
       prevEl: ".swiper-button-prev.prev-btn",
@@ -57,14 +56,17 @@ jQuery(document).ready(function ($) {
       320: {
         slidesPerView: 2,
         spaceBetween: 15,
+        allowTouchMove: false,
       },
       768: {
         slidesPerView: 3,
         spaceBetween: 15,
+        allowTouchMove: false,
       },
       1024: {
         slidesPerView: 4,
         spaceBetween: 30,
+        allowTouchMove: false,
       },
       1280: {
         slidesPerView: 5,
@@ -93,14 +95,17 @@ jQuery(document).ready(function ($) {
       320: {
         slidesPerView: 2,
         spaceBetween: 15,
+        allowTouchMove: false,
       },
       768: {
         slidesPerView: 3,
         spaceBetween: 15,
+        allowTouchMove: false,
       },
       1024: {
         slidesPerView: 4,
         spaceBetween: 30,
+        allowTouchMove: false,
       },
       1280: {
         slidesPerView: 5,
