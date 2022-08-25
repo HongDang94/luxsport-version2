@@ -389,6 +389,10 @@
   background: #fff;
 }
 
+.mySwiperDetail .swiper-wrapper {
+  pointer-events: none;
+}
+
 #qa {
   width: 100%;
 }
@@ -450,6 +454,10 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+}
+
+.video-product {
+  width: 100%;
 }
 
 @media (max-width: 1280px) {
