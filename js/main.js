@@ -4,6 +4,7 @@ jQuery(document).ready(function ($) {
     spaceBetween: 30,
     effect: "fade",
     loop: true,
+    simulateTouch: false,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
@@ -14,6 +15,7 @@ jQuery(document).ready(function ($) {
     slidesPerView: "auto",
     spaceBetween: 24,
     loop: false,
+    simulateTouch: false,
     breakpoints: {
       320: {
         spaceBetween: 12,
@@ -42,6 +44,7 @@ jQuery(document).ready(function ($) {
     slidesPerView: 5,
     spaceBetween: 16,
     loop: true,
+    simulateTouch: false,
     navigation: {
       nextEl: ".swiper-button-next.next-btn",
       prevEl: ".swiper-button-prev.prev-btn",
@@ -149,7 +152,7 @@ jQuery(document).ready(function ($) {
   var swiperCategorySlider = new Swiper("#category-sport", {
     slidesPerView: 4,
     spaceBetween: 16,
-     loop: true,
+    loop: true,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,

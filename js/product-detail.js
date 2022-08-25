@@ -26,12 +26,8 @@ jQuery(document).ready(function ($) {
       swiper: swiper,
     },
   });
-  var tabContent = new Swiper(".mySwiperDetail", {
-    direction: "vertical",
+  var tabContent = new Swiper(".mySwiper2", {
     spaceBetween: 10,
-    pauseOnMouseEnter: true,
-    disableOnInteraction: true,
-    simulateTouch: false,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
