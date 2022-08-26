@@ -390,10 +390,6 @@
   background: #fff;
 }
 
-.mySwiperDetail > .swiper-wrapper {
-  transform: none !important;
-}
-
 .video-product {
   width: 100%;
 }
