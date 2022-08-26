@@ -43,8 +43,7 @@ jQuery(document).ready(function ($) {
   var swiperProductSlider = new Swiper("#sproduct-best-seller", {
     slidesPerView: 5,
     spaceBetween: 16,
-    allowTouchMove: false,
-    loop: true,
+    loop: false,
     navigation: {
       nextEl: ".swiper-button-next.next-btn",
       prevEl: ".swiper-button-prev.prev-btn",
@@ -57,17 +56,14 @@ jQuery(document).ready(function ($) {
       320: {
         slidesPerView: 2,
         spaceBetween: 15,
-        allowTouchMove: false,
       },
       768: {
         slidesPerView: 3,
         spaceBetween: 15,
-        allowTouchMove: false,
       },
       1024: {
         slidesPerView: 4,
         spaceBetween: 30,
-        allowTouchMove: false,
       },
       1280: {
         slidesPerView: 5,
@@ -83,8 +79,7 @@ jQuery(document).ready(function ($) {
   var swiperProductSlider = new Swiper("#sproduct-new", {
     slidesPerView: 5,
     spaceBetween: 16,
-    loop: true,
-    allowTouchMove: false,
+    loop: false,
     navigation: {
       nextEl: ".swiper-button-next.next-btn-news",
       prevEl: ".swiper-button-prev.prev-btn-news",
@@ -97,17 +92,14 @@ jQuery(document).ready(function ($) {
       320: {
         slidesPerView: 2,
         spaceBetween: 15,
-        allowTouchMove: false,
       },
       768: {
         slidesPerView: 3,
         spaceBetween: 15,
-        allowTouchMove: false,
       },
       1024: {
         slidesPerView: 4,
         spaceBetween: 30,
-        allowTouchMove: false,
       },
       1280: {
         slidesPerView: 5,
