@@ -639,9 +639,8 @@ a.view-all {
   border-radius: 8px;
 }
 .youtube:after {
-  background: rgba(0, 0, 0, 0.3) url(../img/icon-open-youtube.svg) center
-    no-repeat;
-  position: fixed;
+  background: rgba(0, 0, 0, 0.3) url(../img/icon-open-youtube.svg) center no-repeat;
+  position: absolute;
   left: 0;
   top: 0;
   right: 0;
