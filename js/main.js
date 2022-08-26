@@ -43,7 +43,7 @@ jQuery(document).ready(function ($) {
   var swiperProductSlider = new Swiper("#sproduct-best-seller", {
     slidesPerView: 5,
     spaceBetween: 16,
-    loop: false,
+    loop: true,
     navigation: {
       nextEl: ".swiper-button-next.next-btn",
       prevEl: ".swiper-button-prev.prev-btn",
@@ -79,7 +79,7 @@ jQuery(document).ready(function ($) {
   var swiperProductSlider = new Swiper("#sproduct-new", {
     slidesPerView: 5,
     spaceBetween: 16,
-    loop: false,
+    loop: true,
     navigation: {
       nextEl: ".swiper-button-next.next-btn-news",
       prevEl: ".swiper-button-prev.prev-btn-news",
