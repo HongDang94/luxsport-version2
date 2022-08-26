@@ -43,7 +43,7 @@ jQuery(document).ready(function ($) {
   var swiperProductSlider = new Swiper("#sproduct-best-seller", {
     slidesPerView: 5,
     spaceBetween: 16,
-    touchMoveStopPropagation: true,
+    allowTouchMove: false,
     loop: true,
     navigation: {
       nextEl: ".swiper-button-next.next-btn",
@@ -57,17 +57,17 @@ jQuery(document).ready(function ($) {
       320: {
         slidesPerView: 2,
         spaceBetween: 15,
-        touchMoveStopPropagation: true,
+        allowTouchMove: false,
       },
       768: {
         slidesPerView: 3,
         spaceBetween: 15,
-        touchMoveStopPropagation: true,
+        allowTouchMove: false,
       },
       1024: {
         slidesPerView: 4,
         spaceBetween: 30,
-        touchMoveStopPropagation: true,
+        allowTouchMove: false,
       },
       1280: {
         slidesPerView: 5,
@@ -84,7 +84,7 @@ jQuery(document).ready(function ($) {
     slidesPerView: 5,
     spaceBetween: 16,
     loop: true,
-    touchMoveStopPropagation: true,
+    allowTouchMove: false,
     navigation: {
       nextEl: ".swiper-button-next.next-btn-news",
       prevEl: ".swiper-button-prev.prev-btn-news",
@@ -97,17 +97,17 @@ jQuery(document).ready(function ($) {
       320: {
         slidesPerView: 2,
         spaceBetween: 15,
-        touchMoveStopPropagation: false,
+        allowTouchMove: false,
       },
       768: {
         slidesPerView: 3,
         spaceBetween: 15,
-        touchMoveStopPropagation: false,
+        allowTouchMove: false,
       },
       1024: {
         slidesPerView: 4,
         spaceBetween: 30,
-        touchMoveStopPropagation: false,
+        allowTouchMove: false,
       },
       1280: {
         slidesPerView: 5,
