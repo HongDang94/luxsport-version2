@@ -639,7 +639,8 @@ a.view-all {
   border-radius: 8px;
 }
 .youtube:after {
-  background: rgba(0, 0, 0, 0.3) url(../img/icon-open-youtube.svg) center no-repeat;
+  background: rgba(0, 0, 0, 0.3) url(../img/icon-open-youtube.svg) center
+    no-repeat;
   position: absolute;
   left: 0;
   top: 0;
@@ -657,6 +658,35 @@ iframe {
   width: 100%;
   height: 100%;
   border-radius: 8px;
+}
+
+.video-slider .swiper-slide {
+  display: block;
+  position: relative;
+}
+
+.youtube img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-slider .swiper-slide:before {
+  content: "";
+  width: 100%;
+  padding-top: 100%;
+  display: block;
+}
+
+iframe.youtube_video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 * {
