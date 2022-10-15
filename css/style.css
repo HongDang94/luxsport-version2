@@ -532,6 +532,7 @@ a:hover {
   padding: 0;
   display: flex;
 }
+
 .modal-advice .modal-body .box-image {
   width: 261px;
 }
@@ -543,7 +544,7 @@ a:hover {
   box-sizing: border-box;
   width: calc(100% - 261px);
 }
-.modal-advice .modal-body .btn-close {
+.modal-advice .modal-body .btn-close, .modal-gift .modal-header .btn-close{
   position: absolute;
   right: 20px;
   top: 20px;
@@ -551,6 +552,10 @@ a:hover {
 .modal-advice .modal-dialog {
   width: 704px !important;
   max-width: 704px !important;
+}
+
+.modal-gift .modal-header{
+  display: block;
 }
 
 .btn-back-search {
@@ -1188,3 +1193,105 @@ input.form-control-lg {
     padding: 0 16px;
   }
 }/*# sourceMappingURL=style.css.map */
+
+ .modal-gift .modal-header .btn-close{
+  position: absolute;
+  right: 20px;
+  top: 32px;
+}
+
+.modal-gift .modal-header {
+  display: block;
+  padding: 20px 0 0;
+  border-bottom: 0;
+}
+.modal-gift .modal-header h3{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #101828;
+}
+
+.modal-gift .modal-body {
+  padding: 0 20px 20px 20px;
+}
+
+.modal-gift .modal-dialog {
+  width: 880px !important;
+  max-width: 880px !important;
+}
+
+.bg-blue-light {
+  background: #F5F9FF;
+  border-radius: 8px;
+  border: 0;
+}
+
+.gift-col img {
+  width: 100%;
+}
+
+.gift-col.col-4 {
+  padding: 20px;
+}
+
+.text-shock {
+  color: #3982F7;
+}
+
+.modal-myValueGift .modal-dialog {
+  width: 498px !important;
+  max-width: 498px !important;
+}
+.modal-myValueGift h1{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.modal-myValueGift .text-note {
+  padding-top: 16px;
+}
+
+.modal-myValueGift .box-content {
+  padding: 20px;
+}
+
+.modal-myGiftAnimation img {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .modal-gift .modal-header h3 {
+    font-size: 16px;
+  }
+  .modal-gift .modal-header {
+    display: block;
+    padding: 10px;
+  }
+  .modal-gift .modal-body .box-content {
+    padding: 20px 16px;
+    width: 100%;
+  }
+  .modal-gift .modal-header .btn-close {
+    top: 20px;
+  }
+  .modal-gift .modal-dialog {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0;
+    padding: 0 16px;
+  }
+  .modal-gift .modal-body {
+    padding: 0 10px 20px 10px;
+  }
+  .gift-col.col-4 {
+    padding: 8px;
+  }
+  .modal-myValueGift h1{
+    font-size: 16px;
+  }
+  .modal-myValueGift .modal-dialog {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}

@@ -247,4 +247,29 @@ jQuery(document).ready(function ($) {
       },
     },
   });
+
+  $(window).on('load', function() {
+    $('.modal-gift').addClass('d-block');
+    $('.modal-backdrop').addClass('show');
+  });
+
+  $(".closeGift").click(function () {
+    $('.modal-gift').removeClass('d-block');
+    $('.modal-backdrop').removeClass('show');
+  });
+
+  $('.gift-col button').on('click', function() {
+    $('.modal-myGiftAnimation').addClass('d-block');
+    setTimeout(() => {
+      $('.modal-myGiftAnimation').removeClass('d-block');
+      $('.modal-myValueGift').addClass('d-block');
+    }, 3000);
+    
+    $('.modal-backdrop').addClass('show');
+    $('.modal-gift').removeClass('d-block');
+  });
+  $('.btn-recevie').on('click', function() {
+    $('.modal-myValueGift').removeClass('d-block');
+    $('.modal-backdrop').removeClass('show');
+  });
 });
