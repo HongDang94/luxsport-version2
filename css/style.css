@@ -1239,9 +1239,13 @@ input.form-control-lg {
   color: #3982F7;
 }
 
+.modal-myGiftAnimation img {
+  width: 100%;
+}
+
 .modal-myValueGift .modal-dialog {
-  width: 498px !important;
-  max-width: 498px !important;
+  width: 481px !important;
+  max-width: 481px !important;
 }
 .modal-myValueGift h1{
   font-weight: 600;
@@ -1254,12 +1258,42 @@ input.form-control-lg {
 }
 
 .modal-myValueGift .box-content {
-  padding: 20px;
+  padding: 32px 30px;
 }
 
-.modal-myGiftAnimation img {
+.modal-myValueGift .modal-body {
+  padding: 0;
+}
+
+.box-voucher {
+  position: relative;
+  text-align: center;
+}
+
+.box-voucher img {
   width: 100%;
 }
+
+.voucher-info {
+  position: absolute;
+  bottom: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.voucher-value {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.voucher-title {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #ED1C24;
+}
+
 @media (max-width: 767px) {
   .modal-gift .modal-header h3 {
     font-size: 16px;
@@ -1290,8 +1324,29 @@ input.form-control-lg {
   .modal-myValueGift h1{
     font-size: 16px;
   }
+}
+
+@media (max-width: 576px) {
+
   .modal-myValueGift .modal-dialog {
-    width: 100% !important;
-    max-width: 100% !important;
+    width: 92% !important;
+    max-width: 92% !important;
+    margin: auto;
   }
+  
+  .modal-myValueGift .box-content {
+    padding: 10px;
+  }
+
+  .voucher-value {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .voucher-info {
+    position: absolute;
+    bottom: 32%;
+  }
+
 }
