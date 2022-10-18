@@ -1294,6 +1294,52 @@ input.form-control-lg {
   color: #ED1C24;
 }
 
+.order-info.container-sm-2 {
+  margin-top: 24px;
+  padding: 24px 32px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+}
+.order-info h3 {
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.order-info .title {
+  font-size: 16px;
+  line-height: 24px;
+  color: #878B94;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+.order-info .sku {
+  margin-top: 16px;
+}
+.infor-detail-consumer {
+  width: 100%;
+}
+.infor-detail-consumer strong {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.thead-gray th{
+  background: #F3F4F4;
+  font-weight: normal;
+}
+.table-responsive {
+  padding: 0 !important;
+  margin-top: 16px;
+}
+
+@media (max-width: 1024px) {
+  .order-info.container-sm-2 {
+    margin:  16px;
+    width: calc(100% - 32px);
+    padding: 16px;
+  }
+}
 @media (max-width: 767px) {
   .modal-gift .modal-header h3 {
     font-size: 16px;
